@@ -131,6 +131,10 @@
     background-color: #dfb6c6;
 }
 
+.teamCardInfo {
+    background-color: #ffffff;
+}
+
 .meetTeamRow h2 {
     color: #ffffff;
     font-family: "Tektur", sans-serif;
@@ -140,6 +144,8 @@
     color: #efdae3;
 }
 
-.teamCard i {
-    font-size: xx-large;
+.meetTeam button {
+    border: none;
+    background-color: #ffffff;
 }
+
