@@ -1,0 +1,58 @@
+
+/* TOP BAR */
+
+.heart {
+    color: #3a494c;
+    font-size: x-large;
+}
+
+.topBar {
+    background-color: #a7d3dc;
+}
+
+.topBar p {
+    /* border: 2px solid red; */
+    font-weight: 600;
+    color: #3a494c;
+    font-size: large;
+}
+.topBar li {
+    padding: 0 1%;
+    font-weight: 500;
+}
+
+.topBar li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #3a494c;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background-color: #a7d3dc;
+}
+
+.heroRow h1 {
+    color: #fffeff;
+    font-family: "Tektur", sans-serif;
+}
+
+/* CIRCLES */
+
+.circles {
+    background-color: #a7d3dc;
+}
+
+.circles button {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    height: 1rem;
+    background-color: transparent;
+}
+
+/* SERVICES */
+
+.services {
+    background-color: #fffeff;
+}
