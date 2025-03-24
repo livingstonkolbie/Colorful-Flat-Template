@@ -56,3 +56,90 @@
 .services {
     background-color: #fffeff;
 }
+
+/* RECENT WORKS */
+
+.recentWorks {
+    background-color: #99d4a6;
+    justify-items: center;
+}
+
+.recentWorks h2 {
+    color: #ffffff;
+    font-family: "Tektur", sans-serif;
+}
+
+.recentWorks p {
+    color: #c0e5c3;
+}
+
+.recentWorks li {
+    padding: 0 1%;
+    font-weight: 500;
+}
+
+.recentWorks li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fffffd;
+}
+
+.recentWorks button {
+    background-color: #ffffff;
+    color: #a1a3a2;
+    border: none;
+    border-radius: 8px;
+    height: 2.5rem;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+/* INFORMATION SECTION */
+
+.infoRowTop {
+    background-color: #f1f1f1;
+    border-bottom: 2px solid #cacaca;
+}
+
+.infoRowTop button {
+    background-color: #9ad3a6;
+    color: #fffffd;
+    border: none;
+    border-radius: 8px;
+    height: 2.5rem;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.infoRowBottom {
+    background-color: #f1f1f1;
+}
+
+.infoRowBottom button {
+    background-color: #a4d3db;
+    color: #fffffd;
+    border: none;
+    border-radius: 8px;
+    height: 2.5rem;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+/* MEET OUR TEAM */
+
+.meetTeam {
+    background-color: #dfb6c6;
+}
+
+.meetTeamRow h2 {
+    color: #ffffff;
+    font-family: "Tektur", sans-serif;
+}
+
+.meetTeamRow p {
+    color: #efdae3;
+}
+
+.teamCard i {
+    font-size: xx-large;
+}
