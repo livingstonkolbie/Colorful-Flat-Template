@@ -207,6 +207,7 @@
 
 .contactUs {
     background-color: #3c3c3c;
+    border-bottom: 3px solid #171717;
 }
 
 .contactUs h2 {
@@ -218,8 +219,33 @@
     color: #fefefe;
 }
 
-.form input, textarea {
-    width: 20rem;
+.form {
+    display: flex;
+    flex-direction: column;
+}
 
+.form input, textarea {
+    width: 55%;
+    border: none;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.form input {
+    height: 45px;
+}
+
+.form textarea {
+    height: 130px;
+}
+
+.contactUs button {
+    background-color: #ffffff;
+    color: #3d3d3d;
+    border: none;
+    border-radius: 8px;
+    height: 2.5rem;
+    font-size: smaller;
+    font-weight: 500;
 }
 
