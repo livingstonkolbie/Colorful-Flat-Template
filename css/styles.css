@@ -133,15 +133,18 @@
 
 .teamCardInfo {
     background-color: #ffffff;
+    text-align: center;
 }
 
 .meetTeamRow h2 {
     color: #ffffff;
     font-family: "Tektur", sans-serif;
+
 }
 
 .meetTeamRow p {
     color: #efdae3;
+
 }
 
 .meetTeam button {
@@ -149,3 +152,53 @@
     background-color: #ffffff;
 }
 
+.teamButtons {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* RECENT POSTS */
+
+.recentPosts {
+    background-color: #b2d2dd;
+}
+
+.recentPostsRow {
+    text-align: center;
+}
+
+.recentPosts h2 {
+    color: #ffffff;
+    font-family: "Tektur", sans-serif;
+}
+
+.recentPosts p {
+    color: #d6e9f0;
+}
+
+.postText {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.postText h5 {
+    color: #373737;
+}
+
+.postText p:nth-child(2) {
+    color: #535353;
+}
+
+.postText p:nth-child(3) {
+    color: #919191;
+}
+
+.recentPosts button {
+    background-color: #ffffff;
+    color: #b2d4e0;
+    border: none;
+    border-radius: 8px;
+    height: 2.5rem;
+    font-size: smaller;
+    font-weight: 500;
+}
