@@ -202,3 +202,24 @@
     font-size: smaller;
     font-weight: 500;
 }
+
+/* CONTACT US */
+
+.contactUs {
+    background-color: #3c3c3c;
+}
+
+.contactUs h2 {
+    color: #d4d0d1;
+    font-family: "Tektur", sans-serif;
+}
+
+.contactUs p {
+    color: #fefefe;
+}
+
+.form input, textarea {
+    width: 20rem;
+
+}
+
