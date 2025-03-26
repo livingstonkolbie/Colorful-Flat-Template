@@ -249,3 +249,16 @@
     font-weight: 500;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: #3c3c3c;
+}
+
+footer p {
+    color: #a1a1a1;
+}
+
+footer span {
+    color: #988a59;
+}
