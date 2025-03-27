@@ -10,11 +10,15 @@
     background-color: #a7d3dc;
 }
 
-.topBar p {
+.logoTitle {
+    padding-left: 4%;
     font-weight: 600;
     font-size: large;
+    font-family: "Tektur", sans-serif;
+    letter-spacing: 2px;
     color: #3a494c;
 }
+
 .topBar li {
     padding: 0 1%;
     font-weight: 500;
@@ -35,6 +39,12 @@
 .heroRow h1 {
     font-family: "Tektur", sans-serif;
     color: #fffeff;
+}
+
+@media (min-width: 1440px) {
+    .heroRow h1 {
+        font-size: xxx-large;
+    }
 }
 
 /* CIRCLES */
@@ -84,9 +94,9 @@
 }
 
 .recentWorks button {
+    height: 2.5rem;
     border: none;
     border-radius: 8px;
-    height: 2.5rem;
     font-size: smaller;
     font-weight: 500;
     background-color: #ffffff;
@@ -124,6 +134,20 @@
     color: #fffffd;
 }
 
+@media (min-width: 1440px) {
+    .infoSection {
+        padding: 0 0 0 2rem;
+        background-color: #f1f1f1;
+    }
+}
+@media (min-width: 2560px) {
+    .infoSection {
+        padding: 0 0rem 0 24rem;
+        background-color: #f1f1f1;
+    }
+}
+
+
 /* MEET OUR TEAM */
 
 .meetTeam {
@@ -154,6 +178,12 @@
 .teamButtons {
     text-align: center;
     background-color: #ffffff;
+}
+
+@media (max-width: 426px) {
+    .teamCard {
+        padding: 8px 9%;
+    }
 }
 
 /* RECENT POSTS */
@@ -193,13 +223,19 @@
 }
 
 .recentPosts button {
+    height: 2.5rem;
     border: none;
     border-radius: 8px;
-    height: 2.5rem;
     font-size: smaller;
     font-weight: 500;
     background-color: #ffffff;
     color: #b2d4e0;
+}
+
+@media (max-width: 426px) {
+    .postsCard {
+        padding: 8px 9%;
+    }
 }
 
 /* CONTACT US */
@@ -224,10 +260,10 @@
 }
 
 .form input, textarea {
+    margin: 1%;
     width: 55%;
     border: none;
     border-radius: 5px;
-    margin: 1%;
 }
 
 .form input {
@@ -239,9 +275,9 @@
 }
 
 .contactUs button {
+    height: 2.5rem;
     border: none;
     border-radius: 8px;
-    height: 2.5rem;
     font-size: smaller;
     font-weight: 500;
     background-color: #ffffff;
